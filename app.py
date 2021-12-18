@@ -77,3 +77,6 @@ def show_predict_page():
             prediction = "It Will Not Be Closed"
             
         st.subheader(f"Is the restaurent going to close? \n {prediction}")
+
+
+show_predict_page()
